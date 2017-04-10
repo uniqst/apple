@@ -20,27 +20,47 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Roboto+Condensed:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Roboto+Condensed:300,400,700&amp;subset=cyrillic"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <div class="container-fluid padding-lrg-2">
-        <div class="pull-left">
-            Need help? call us 1-22-3456789
+    <div class="header">
+        <div class="container-fluid padding-lrg header-desc">
+            <div class="pull-left">
+                Need help? call us 1-22-3456789
 
+            </div>
+
+            <div class="pull-right">
+                Register Login Delivery Checkout My Account
+            </div>
         </div>
+        <div class="container-fluid padding-lrg header-top">
+            <div class="pull-left" style="min-height: 75px">
+                Need help? call us 1-22-3456789
 
-        <div class="pull-right">
-            Register Login Delivery Checkout My Account
+            </div>
+
+            <div class="pull-right">
+                Register Login Delivery Checkout My Account
+            </div>
         </div>
     </div>
+    
+
 
     <?php
     NavBar::begin([
-        'options'=>[
+        'options' => [
 
         ],
         'innerContainerOptions' => ['class' => 'main-nav'],
@@ -56,7 +76,7 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-           '<form class="navbar-form navbar-left">
+            '<form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Поиск">
         </div>
@@ -67,7 +87,7 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
+    <div class="content">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

@@ -19,7 +19,8 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
-        'css/my-style.css'
+        'css/my-style.css',
+        'css/responsive.css',
     ];
     public $js = [
         'js/jquery.sticky.js',

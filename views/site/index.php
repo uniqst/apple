@@ -4,50 +4,84 @@
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+<!--    <div class="site-index">-->
+<!---->
+<!--        <div class="jumbotron">-->
+<!--            <h1>Congratulations!</h1>-->
+<!---->
+<!--            <p class="lead">You have successfully created your Yii-powered application.</p>-->
+<!---->
+<!--            <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>-->
+<!--        </div>-->
+<!---->
+<!--        <div class="body-content">-->
+<!---->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4">-->
+<!--                    <h2>Heading</h2>-->
+<!---->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+<!--                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip-->
+<!--                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu-->
+<!--                        fugiat nulla pariatur.</p>-->
+<!---->
+<!--                    <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4">-->
+<!--                    <h2>Heading</h2>-->
+<!---->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+<!--                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip-->
+<!--                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu-->
+<!--                        fugiat nulla pariatur.</p>-->
+<!---->
+<!--                    <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4">-->
+<!--                    <h2>Heading</h2>-->
+<!---->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et-->
+<!--                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip-->
+<!--                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu-->
+<!--                        fugiat nulla pariatur.</p>-->
+<!---->
+<!--                    <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!--    </div>-->
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 categories" >
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
 
-    <div class="body-content">
+                <ul>
+                    <h3>Categories</h3>
+                    <li><a href="#">Mobile Phones</a></li>
+                    <li><a href="#">Desktop</a></li>
+                    <li><a href="#">Laptop</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li><a href="#">Sports &amp; Fitness</a></li>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Jewellery</a></li>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Home Decor &amp; Kitchen</a></li>
+                    <li><a href="#">Beauty &amp; Healthcare</a></li>
+                    <li><a href="#">Toys, Kids &amp; Babies</a></li>
+                </ul>
 
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+        
+        
+        <div class="col-sm-9">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
         </div>
-
+        
     </div>
+
 </div>
+

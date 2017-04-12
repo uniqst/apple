@@ -5,6 +5,26 @@
     .container-fluid{
         max-width: 90%;
     }
+
+
+
+
+    .row.products > div{
+        padding-left: 14px;
+        padding-right: 14px;
+
+    }
+
+    .row.products > div:first-child{
+        padding-left: 14px;
+        padding-right:14px;
+
+    }
+
+    .row.products > div:last-child{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
 }
 
 /* Medium Devices, Desktops */

@@ -21,9 +21,13 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/my-style.css',
         'css/responsive.css',
+        'css/flexslider.css',
     ];
     public $js = [
         'js/jquery.sticky.js',
+        'js/jquery.flexslider-min.js',
+        'js/main.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',

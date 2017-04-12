@@ -10,10 +10,30 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-9">
-           
+        <div class="col-md-9 description" >
+           <div class="col-md-5">
+               <section class="slider">
+                   <div class="flexslider">
+                       <ul class="slides">
+                           <li data-thumb="../../web/images/slide-1-image.png">
+                               <img src="../../web/images/slide-1-image.png" />
+                           </li>
+                           <li data-thumb="../../web/images/slide-1-image.png">
+                               <img src="../../web/images/slide-1-image.png" />
+                           </li>
+                           <li data-thumb="../../web/images/slide-1-image.png">
+                               <img src="../../web/images/slide-1-image.png" />
+                           </li>
+                           <li data-thumb="../../web/images/slide-1-image.png">
+                               <img src="../../web/images/slide-1-image.png" />
+                           </li>
+                       </ul>
+                   </div>
+               </section>
+           </div>
+            <div class="col-md-6">gg</div>
         </div>
-        <div class="col-sm-3 categories">
+        <div class="col-md-3 categories">
             <ul>
                 <h3>Categories</h3>
                 <li><a href="#">Mobile Phones</a></li>

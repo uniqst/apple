@@ -9,12 +9,13 @@ use yii\web\Controller;
 
 class ProductController extends Controller
 {
-    public function actionView($id)
+    public function actionIndex()
     {
-        $id = Yii::$app->request->get('id');
-        $product = Product::findOne($id);
-
-        return $this->render('view',compact('product'));
+        return $this->render('index');
+    }
+    
+    public function actionHello(){
+        return 'hello';
     }
 
 }

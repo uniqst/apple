@@ -3,11 +3,12 @@
 /* @var $this yii\web\View */
 
 $this->title = 'title';
+
 ?>
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 categories">
+        <div class="col-md-3 categories">
             <ul>
                 <h3>Categories</h3>
                 <li><a href="#">Mobile Phones</a></li>
@@ -25,7 +26,7 @@ $this->title = 'title';
             </ul>
         </div>
 
-        <div class="col-sm-9 slider">
+        <div class="col-md-9 slider">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -220,7 +221,7 @@ $this->title = 'title';
             </div>
         </div>
 
-    </div>d
+    </div>
 
     <div class="content_top">
         <div class="heading">

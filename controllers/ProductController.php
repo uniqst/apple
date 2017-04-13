@@ -13,9 +13,5 @@ class ProductController extends Controller
     {
         return $this->render('index');
     }
-    
-    public function actionHello(){
-        return 'hello';
-    }
 
 }

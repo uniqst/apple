@@ -128,7 +128,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <div>
 
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
+                <div class="tabs" style="border: 1px solid darkgrey">
+                <ul class="nav nav-tabs" role="tablist" >
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
                     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Характеристики</a></li>
 <!--                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>-->
@@ -142,7 +143,91 @@ $this->params['breadcrumbs'][] = $this->title;
 <!--                    <div role="tabpanel" class="tab-pane" id="messages">...</div>-->
 <!--                    <div role="tabpanel" class="tab-pane" id="settings">...</div>-->
                 </div>
+                </div>
+                <div class="content_top">
+                    <div class="heading">
+                        <h3>Related Products</h3>
+                    </div>
 
+                    <div class="see pull-right">
+                        <p><a href="#">See all Products</a></p>
+                    </div>
+                </div>
+                <div class="row products">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="product">
+
+                            <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
+                            <h2>Lorem Ipsum is simply </h2>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$620.87</span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="product">
+
+                            <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
+                            <h2>Lorem Ipsum is simply </h2>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$620.87</span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="product">
+
+                            <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
+                            <h2>Lorem Ipsum is simply </h2>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$620.87</span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="product">
+
+                            <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
+                            <h2>Lorem Ipsum is simply </h2>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$620.87</span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="col-md-3 categories">

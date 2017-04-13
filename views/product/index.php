@@ -237,7 +237,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
         </div>
-        <div class="col-md-3 categories">
+        <div class="col-md-3 categories hidden-sm hidden-xs">
             <ul>
                 <h3>Categories</h3>
                 <li><a href="#">Mobile Phones</a></li>

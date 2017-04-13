@@ -22,10 +22,10 @@ body {
 }
 
 .footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+    /*height: 60px;*/
+    /*background-color: #f5f5f5;*/
+    /*border-top: 1px solid #ddd;*/
+    /*padding-top: 20px;*/
 
 }
 
@@ -164,7 +164,7 @@ a.desc:after {
     margin-bottom: .5em;
     font-size: 1.2em;
     line-height: 1.2;
-    font-family: 'ambleregular';
+
     font-weight: normal;
     margin-top: 0px;
     letter-spacing: -1px;
@@ -180,12 +180,12 @@ a.desc:after {
     font-size: 0.8125em;
     padding: 0.4em 0;
     color:#2A5C86;
-    font-family: 'ambleregular';
+
     display: block;
 }
 .span_1_of_4  li span{
     font-size:1em;
-    font-family: 'ambleregular';
+
     color:#2A5C86;
     cursor:pointer;
     margin:10px 0;
@@ -218,7 +218,7 @@ a.desc:after {
 }
 .copy_right p a {
     color:#DD0F0E;
-    font-family: 'ambleregular';
+
     text-decoration: underline;
 }
 .copy_right p a:hover {

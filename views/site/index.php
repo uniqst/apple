@@ -62,7 +62,7 @@ $this->title = 'title';
     </div>
 
 
-    <div class="content_top">
+    <div class="content_top" style="border-color: #999999">
         <div class="heading">
             <h3>New Products</h3>
         </div>
@@ -72,86 +72,12 @@ $this->title = 'title';
         </div>
     </div>
 
+
     <div class="row products">
         <div class="col-sm-6 col-md-3">
             <div class="product">
 
-                <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
-                <h2>Lorem Ipsum is simply </h2>
-                <div class="price-details">
-                    <div class="price-number">
-                        <p><span class="rupees">$620.87</span></p>
-                    </div>
-                    <div class="add-cart">
-                        <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="product">
-
-                <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
-                <h2>Lorem Ipsum is simply </h2>
-                <div class="price-details">
-                    <div class="price-number">
-                        <p><span class="rupees">$620.87</span></p>
-                    </div>
-                    <div class="add-cart">
-                        <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="product">
-
-                <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
-                <h2>Lorem Ipsum is simply </h2>
-                <div class="price-details">
-                    <div class="price-number">
-                        <p><span class="rupees">$620.87</span></p>
-                    </div>
-                    <div class="add-cart">
-                        <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="product">
-
-                <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
-                <h2>Lorem Ipsum is simply </h2>
-                <div class="price-details">
-                    <div class="price-number">
-                        <p><span class="rupees">$620.87</span></p>
-                    </div>
-                    <div class="add-cart">
-                        <span class="pull-right"><a href="preview.html">Add to Cart</a></span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
-    <div class="row products">
-        <div class="col-sm-6 col-md-3">
-            <div class="product">
-
-                <a href="preview.html"><img src="images/feature-pic1.jpg" alt=""></a>
+                <a href="<?= \yii\helpers\Url::to(['/product/index']) ?>"><img src="images/feature-pic1.jpg" alt=""></a>
                 <h2>Lorem Ipsum is simply </h2>
                 <div class="price-details">
                     <div class="price-number">
@@ -223,7 +149,7 @@ $this->title = 'title';
 
     </div>
 
-    <div class="content_top">
+    <div class="content_top" style="border-color: #999999">
         <div class="heading">
             <h3>
                 Feature Products

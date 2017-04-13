@@ -128,7 +128,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div>
 
                 <!-- Nav tabs -->
-                <div class="tabs" style="border: 1px solid darkgrey">
+                <div class="tabs" >
                 <ul class="nav nav-tabs" role="tablist" >
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
                     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Характеристики</a></li>
@@ -137,9 +137,16 @@ $this->params['breadcrumbs'][] = $this->title;
                 </ul>
 
                 <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade active" id="home">...</div>
-                    <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
+                <div class="tab-content" style="border: 1px solid darkgrey">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
 <!--                    <div role="tabpanel" class="tab-pane" id="messages">...</div>-->
 <!--                    <div role="tabpanel" class="tab-pane" id="settings">...</div>-->
                 </div>

@@ -121,3 +121,107 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+
+/**/
+/*** Footer ***/
+.footer {
+    position: relative;
+    background: #FCFCFC;
+    border-top: 1px solid #CECECE;
+    margin:20px auto;
+}
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+.col_1_of_4 {
+    display: block;
+    float: left;
+    margin:0% 0 1% 3.6%;
+}
+.col_1_of_4:first-child {
+    margin-left: 0;
+}/* all browsers except IE6 and lower */
+.span_1_of_4 {
+    width: 20.5%;
+    padding:1.5% 1.5% 0 0;
+    border-left:1px solid #CECECE;
+}
+.span_1_of_4  h4 {
+    color:#4F4F4F;
+    margin-bottom: .5em;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-family: 'ambleregular';
+    font-weight: normal;
+    margin-top: 0px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CECECE;
+    padding-bottom: 0.5em;
+    padding-left:20px;
+}
+.span_1_of_4 ul{
+    padding-left:20px;
+}
+.span_1_of_4  li a {
+    font-size: 0.8125em;
+    padding: 0.4em 0;
+    color:#2A5C86;
+    font-family: 'ambleregular';
+    display: block;
+}
+.span_1_of_4  li span{
+    font-size:1em;
+    font-family: 'ambleregular';
+    color:#2A5C86;
+    cursor:pointer;
+    margin:10px 0;
+    display:block;
+}
+.span_1_of_4  li a:hover, .span_1_of_4  li span:hover {
+    color:#DD0F0E;
+}
+/*** Social Icons ***/
+.social-icons {
+    padding-top: 8%;
+}
+.social-icons li {
+    width: 30px;
+    height: 30px;
+    padding: 0px 0 0 5px;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+.copy_right {
+    text-align: center;
+    border-top: 1px solid #EEE;
+    padding: 10px 0;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.copy_right p {
+    font-size:0.823em;
+    color: #747474;
+}
+.copy_right p a {
+    color:#DD0F0E;
+    font-family: 'ambleregular';
+    text-decoration: underline;
+}
+.copy_right p a:hover {
+    color:#222;
+    text-decoration: none;
+}
